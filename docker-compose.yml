@@ -1,0 +1,11 @@
+bem:
+ image: nejtr0n/bem-image
+ volumes:
+  - ./bem:/home/bem
+  - ./bem.sh:/bin/bem.sh
+ ports:
+  - 8080:8080
+ environment:
+  - BEM_VERSION=1.5.0
+  - PROJECT_NAME=project-stub
+ command: /bin/bem.sh
