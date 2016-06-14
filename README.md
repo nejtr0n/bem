@@ -10,7 +10,7 @@ Simple docker-compose file to run ENB server locally
 
 ## Usage
 ```
-git https://github.com/nejtr0n/bem.git && cd bem
+git clone https://github.com/nejtr0n/bem.git && cd bem
 docker-compose up
 ```
 
