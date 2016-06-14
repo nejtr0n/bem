@@ -6,6 +6,6 @@ bem:
  ports:
   - 8080:8080
  environment:
-  - BEM_VERSION=1.5.0
+  - BEM_VERSION=1.6.0
   - PROJECT_NAME=project-stub
  command: /bin/bem.sh
