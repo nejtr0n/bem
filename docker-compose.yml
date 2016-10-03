@@ -8,4 +8,5 @@ bem:
  environment:
   - BEM_VERSION=1.6.0
   - PROJECT_NAME=project-stub
+  - YENV=production
  command: /bin/bem.sh
